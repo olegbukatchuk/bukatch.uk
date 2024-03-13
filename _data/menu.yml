@@ -39,6 +39,6 @@ entries:
   #         - title: with subsubitems
   #         - title: example page
   #           url: about
-  - title: P.S. Primum putamus, deinde facimus.
-    # entries:
-    #  - title: 
+  # - title: no subitems
+  #   entries:
+  #     - title: 
