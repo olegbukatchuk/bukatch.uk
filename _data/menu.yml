@@ -2,12 +2,18 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: about
+  - title: about me
     entries:
       - title: github.com
         url: https://github.com/olegbukatchuk
+
+  - title: my projects
+    entries:      
       - title: freelance.im
-        url: https://freelance.im/user/bukatchuk/portfolio/
+        url: https://freelance.im
+      - title: uptime.bz
+        url: https://uptime.bz
+      
 
   - title: all posts
     post_list:
@@ -26,13 +32,13 @@ entries:
   - title: rss
     url: feed.xml
   
-  - title: another list
-    entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
+  # - title: another list
+  #   entries:
+  #     - title: with subitems
+  #       entries:
+  #         - title: with subsubitems
+  #         - title: example page
+  #           url: about
+  - title: P.S. Primum putamus, deinde facimus.
+    # entries:
+    #  - title: 
