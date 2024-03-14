@@ -6,7 +6,7 @@ entries:
     entries:
       - title: github.com
         title_description: Code & Experiments
-        url_about: https://github.com/olegbukatchuk
+        url: https://github.com/olegbukatchuk
 
   - title: my projects
     entries:      
