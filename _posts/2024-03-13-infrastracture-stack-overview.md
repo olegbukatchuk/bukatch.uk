@@ -1,9 +1,12 @@
 ---
 layout: post
-category: example
+category: infra
 ---
 
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.
+SSO (FreeIPA)
+Git, Registry, CI/CD Pipelines (Gitlab)
+
+<!-- Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.
 
 # Sample heading 1
 ## Sample heading 2
@@ -81,4 +84,4 @@ Logo of *no style, please!* theme[^4]
 [^1]: this is a footnote. It should highlight if you click on the corresponding superscript number.
 [^2]: hey there, i'm using no style please!
 [^3]: this is another footnote.
-[^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not. I strongly hope that there are no problems but you know sometimes problems arise from nowhere.
+[^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not. I strongly hope that there are no problems but you know sometimes problems arise from nowhere. -->
