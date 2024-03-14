@@ -9,11 +9,11 @@ entries:
 
   - title: my projects
     entries:      
-      - title: freelance.im
+      - title: freelance.im - Freelance Exchange
         url: https://freelance.im
-      - title: uptime.bz
+      - title: uptime.bz - Uptime Monitoring & Status Pages
         url: https://uptime.bz
-      - title: quickdate.io
+      - title: quickdate.io - Dating App
         url: https://quickdate.io
       
 
