@@ -3,10 +3,19 @@ layout: post
 category: infra
 ---
 
-1. SSO (FreeIPA)
-2. Git, Registry, CI/CD Pipelines (Gitlab/Github)
-3. Mail server (Mailcow)
-4. 
+01. SSO (FreeIPA)
+02. Git, Registry, Bug Tracker, CI/CD Pipelines (Gitlab)
+03. Mail server (Mailcow)
+04. DNS server (PowerDNS)
+05. Monitoring server (Prometheus)
+06. Metrics (Node Exporters, cAdvisor, etc...)
+07. Alerts (Alert Manager)
+08. S3 Storage (Minio)
+09. Backups (Bareos)
+10. Secrets (Vault)
+11. IPAM (NetBox)
+
+
 
 <!-- Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.
 
