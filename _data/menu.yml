@@ -5,7 +5,6 @@ entries:
   - title: about me
     entries:
       - title: github.com
-        title_description: Code & Experiments
         url: https://github.com/olegbukatchuk
 
   - title: my projects
