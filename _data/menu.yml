@@ -11,13 +11,13 @@ entries:
   - title: my projects
     entries:      
       - title: freelance.im
-        title_description: Freelance Exchange
+        title_description: '- Freelance Exchange'
         url: https://freelance.im
       - title: uptime.bz
-        title_description: Uptime Monitoring & Status Pages
+        title_description: '- Uptime Monitoring & Status Pages'
         url: https://uptime.bz
       - title: quickdate.io
-        title_description: Real-time Dating
+        title_description: '- Real-time Dating'
         url: https://quickdate.io
 
   - title: all posts
@@ -27,7 +27,7 @@ entries:
       show_more_text: See more post...
       show_more_url: archive.html
 
-  - title: category
+  - title: categories
     entries:      
       - title: linux
         url: linux.html
