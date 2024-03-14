@@ -3,7 +3,7 @@
     <li>
     {%- if item.url_about -%}
       <a href="{{ item.url_about }}">{{ item.title_about }}</a>
-    {%- ifelse item.url -%}
+    {%- if item.url -%}
       <a href="{{ item.url }}">{{ item.title }}</a> - {{ item.title_not_link }}
     {%- else -%}
       {{ item.title }}
