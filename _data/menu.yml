@@ -24,21 +24,28 @@ entries:
       show_more_text: See more post...
       show_more_url: archive.html
 
-  - title: bash
-    post_list:
-      category: bash
-      limit: 1
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: archive-bash.html
+  - title: category
+    entries:      
+      - title: bash
+        url: archive-bash.html
+      - title: infra
+        url: archive-infra.html
 
-  - title: infra
-    post_list:
-      category: infra
-      limit: 1
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: archive-infra.html
+  # - title: bash
+  #   post_list:
+  #     category: bash
+  #     limit: 1
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: archive-bash.html
+
+  # - title: infra
+  #   post_list:
+  #     category: infra
+  #     limit: 1
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: archive-infra.html
 
   - title: rss
     url: feed.xml
