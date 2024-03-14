@@ -2,7 +2,7 @@
   {%-for item in include.collection-%}
     <li>
     {%- if item.url -%}
-      <a href="{{ item.url }}">{{ item.title }}</a> - {{ item.title_description }}
+      <a href="{{ item.url }}">{{ item.title }}</a> <!-- - {{ item.title_description }}-->
     {%- else -%}
       {{ item.title }}
     {%- endif -%}
