@@ -27,9 +27,9 @@ entries:
   - title: category
     entries:      
       - title: linux
-        url: archive-linux.html
+        url: linux.html
       - title: infra
-        url: archive-infra.html
+        url: infra.html
 
   # - title: bash
   #   post_list:
