@@ -4,19 +4,19 @@
 entries:
   - title: about me
     entries:
-      - title: github.com
-        url: https://github.com/olegbukatchuk
+      - title_about: github.com
+        url_about: https://github.com/olegbukatchuk
 
   - title: my projects
     entries:      
       - title: freelance.im
-        title_not_link: - Freelance Exchange
+        title_not_link: Freelance Exchange
         url: https://freelance.im
       - title: uptime.bz
-        title_not_link: - Uptime Monitoring & Status Pages
+        title_not_link: Uptime Monitoring & Status Pages
         url: https://uptime.bz
       - title: quickdate.io
-        title_not_link: - Dating App
+        title_not_link: Dating App
         url: https://quickdate.io
       
 
