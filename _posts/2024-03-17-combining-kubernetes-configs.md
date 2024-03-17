@@ -3,7 +3,7 @@ layout: post
 category: linux
 ---
 
-In this example, we combine 3 environments into one configuration file.
+Combining kubernetes configs into a single file.
 
 ```
 KUBECONFIG=~/.kube/config: \
