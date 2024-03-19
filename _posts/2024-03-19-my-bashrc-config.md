@@ -5,7 +5,7 @@ category: linux
 
 My `/etc/bashrc` config for macOS/Linux.
 
-```
+```bash
 # System-wide .bashrc file for interactive bash(1) shells.
 if [ -z "$PS1" ]; then
    return
