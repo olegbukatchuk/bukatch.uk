@@ -16,9 +16,9 @@ git_branch() {
 }
 
 shopt -s checkwinsize
-
+{% raw %}
 PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\] \D{%H:%M:%S}\[\033[0;36m\] @ \[\033[0;36m\]\w\[\033[0;32m\] [$(git_branch)]\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
-
+{% endraw %}
 [ -r "/etc/bashrc_$TERM_PROGRAM" ] && . "/etc/bashrc_$TERM_PROGRAM"
 ```
 
