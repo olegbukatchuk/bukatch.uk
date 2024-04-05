@@ -38,7 +38,7 @@ entries:
         url: linux.html
       - title: network
         url: network.html
-      - title: infra
+      - title: other
         url: other.html
 
   # - title: bash
