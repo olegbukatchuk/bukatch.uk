@@ -18,6 +18,12 @@ entries:
       - title: quickdate.io
         title_description: '- Real-time Dating'
         url: https://quickdate.io
+      - title: yanabe.ru
+        title_description: '- Video calls and meetings for everyone'
+        url: https://yanabe.ru
+      - title: mixtr.org
+        title_description: '- Email Marketing'
+        url: https://yanabe.ru
 
   - title: all posts
     post_list:
@@ -30,8 +36,10 @@ entries:
     entries:      
       - title: linux
         url: linux.html
+      - title: network
+        url: network.html
       - title: infra
-        url: infra.html
+        url: other.html
 
   # - title: bash
   #   post_list:
