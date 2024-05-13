@@ -23,7 +23,10 @@ entries:
         url: https://yanabe.ru
       - title: mixtr.org
         title_description: '- Email Marketing'
-        url: https://yanabe.ru
+        url: https://mixtr.org
+      - title: pixman.tech
+        title_description: '- Social Proof Popups'
+        url: https://pixman.tech
 
   - title: all posts
     post_list:
