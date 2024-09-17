@@ -9,9 +9,9 @@ entries:
 
   - title: my projects
     entries:      
-      - title: freelance.im
-        title_description: '- Freelance Exchange'
-        url: https://freelance.im
+      #- title: freelance.im
+      #  title_description: '- Freelance Exchange'
+      #  url: https://freelance.im
       - title: uptime.bz
         title_description: '- Uptime Monitoring & Status Pages'
         url: https://uptime.bz
@@ -24,9 +24,9 @@ entries:
       # - title: mixtr.org
       #   title_description: '- Email Marketing'
       #   url: https://mixtr.org
-      - title: pixman.tech
-        title_description: '- Social Proof Popups'
-        url: https://pixman.tech
+      #- title: pixman.tech
+      #  title_description: '- Social Proof Popups'
+      #  url: https://pixman.tech
 
   - title: all posts
     post_list:
