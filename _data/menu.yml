@@ -6,7 +6,7 @@ entries:
     entries:
       - title: github.com
         url: https://github.com/olegbukatchuk
-      - title: rss
+      - title: rss feed
         url: feed.xml
 
   - title: Projects
