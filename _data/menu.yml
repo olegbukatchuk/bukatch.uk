@@ -2,12 +2,14 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: about me
+  - title: Code & Updates
     entries:
       - title: github.com
         url: https://github.com/olegbukatchuk
+      - title: rss
+        url: feed.xml
 
-  - title: my projects
+  - title: Projects
     entries:      
       #- title: freelance.im
       #  title_description: '- Freelance Exchange'
@@ -28,14 +30,14 @@ entries:
       #  title_description: '- Social Proof Popups'
       #  url: https://pixman.tech
 
-  - title: all posts
+  - title: Posts
     post_list:
-      limit: 5
+      limit: 15
       show_more: true
       show_more_text: See more post...
       show_more_url: archive.html
 
-  - title: categories
+  - title: Categories
     entries:      
       - title: linux
         url: linux.html
@@ -60,8 +62,8 @@ entries:
   #     show_more_text: See more posts...
   #     show_more_url: archive-infra.html
 
-  - title: rss
-    url: feed.xml
+  #- title: rss
+  #  url: feed.xml
   
   # - title: another list
   #   entries:

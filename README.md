@@ -1,1 +1,1 @@
-# no bullshit, please!
+# No pain, no gain!
