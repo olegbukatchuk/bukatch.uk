@@ -7,126 +7,189 @@
 > >
 > > ![header](/repo-banner-dark.svg)
 
-# For Musti
+**CODEDOC** is an open-source tool that helps you with creating beautiful and modern software documentation.
+It creates a JAMStack app from your markdown files that you can easily deploy on services such as GitHub Pages.
 
-## The standard Lorem Ipsum passage, used since the 1500s
+```bash
+npm i -g @codedoc/cli             # --> click on each line to copy it
+```
 
-"Lorem ipsum dolor sit amet[and a footnote](:Footnote) , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+---
 
-## Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+# Usage
 
-"Sed ut perspiciatis unde[](:Footnote (id=second)) omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+Assume you have a repo on github named `my-project` and want to write documentations for it
+using codedoc. Install the codedoc cli, clone your repo locally, then:
 
-> :Footnote id=second
+```bash
+cd my-project                # --> go to your project folder
+codedoc init                 # --> initialize codedoc
+codedoc serve                # --> serve the docs
+```
+
+Open a browser on the URL the CLI tool tells you (e.g. `localhost:3000/my-project`) and
+see the docs boilerplate.
+
+Your markdown files by default are located at `docs/md/`, for example the main page you see
+will be from `docs/md/index.md`. The table of contents will also by default be on `docs/md/_toc.md`.
+Modify them and see the changes in realtime.
+
+<br>
+
+## Publishing
+
+When you are done with your docs and want to publish them, say to GitHub Pages, simply
+run this command in your project folder:
+
+```bash
+codedoc build               # --> build the docs for deployment
+```
+
+Then add all the built files and push to GitHub:
+
+```bash
+git add -A                  # --> add your built files
+git commit -m "meine docs"  # --> commit the changes
+git push                    # --> push to the cloud
+```
+
+Remember to enable [GitHub Pages](https://pages.github.com) on your repo.
+
+---
+
+# Features
+
+This very documentation was created using codedoc, so basically every feature you see here you would
+get for your own documentation. Check out [this repository](https://github.com/CONNECT-platform/codedoc-docs)
+to see how exactly these documentations were created using codedoc.
+
+<br>
+
+## Enhanced Markdown
+
+> :Tabs
+> > :Tab title=the markdown
+> >
+> > ```md
+> > Hi _this_ is my content, and let me have some buttons beneath it:
+> >
+> > > :Buttons                                                          <!--> this is how you use custom components -->
+> > > > :Button icon=true, label=share, url=https://twitter.com         <!--> this `Button` component is a child of the `Buttons` component -->
+> > >
+> > > > :Button label=Google!, url=https://stackblitz.com               <!--> this other `Button` is also part of the parent `Buttons` component -->
+> > ```
 >
-> Also some other _stuff_. \
-> Plus more stuff as well.
+> > :Tab title=how it looks
+> >
+> > 
+> > Hi _this_ is my content, and let me have some buttons beneath it:
+> >
+> > > :Buttons
+> > > > :Button icon=true, label=share, url=https://twitter.com
+> > >
+> > > > :Button label=Google!, url=https://stackblitz.com
 
-> :Footnotes
-
-| message | target   |
-| :------ | -----:   |
-| Hellow  | World    |
-| Goodbye | Blue Sky |
-| Hey     | Mr. Jack |
-
-```bash | --term eugenes-MacBook-Pro$
-echo "Hellow World!"
-> Hellow World!
-> How are ye doin?
-> What about ` this?
-```
-
-```md
-> :Button
-```
-
-```js | --term
-import /*~err~*/chalk/*~err~*/ from 'chalk';
-console.log(chalk`{hex('#f05454') ERROR:} You suck!`);
-> {hex('#f05454') ERROR:} You suck!
-console.log(chalk`{bold.green WARN:} But ...`);
-> {bold.green WARN:} But ...
-```
-> :Buttons
-> > :CopyButton
-
-```csharp
-public Option<int> method() =>
-  new Dictionary<int, int>()./*~warn~*/TryGetValue/*~warn~*/(0);
-}
-```
-
-> :Footnotes
-
-```fsharp
-(*~warn~*)hellow(*~warn~*) world;
-```
+<br>
 
 > :Buttons
-> > :Button label=First Line, url=#code1-l1:l1
+> > :Button label=Learn More, url=/docs/markdown/overview
+
+<br>
+
+## Enhanced Code Snippets
+
+> :Tabs
+> > :Tab title=the markdown
+> >
+> > ````
+> > So I have some code with enhanced features here:
+> > ```tsx
+> > /*!*//*!*/import { build } from '@codedoc/core';         // --> programmatically import codedoc
+> > /*!*//*!*/import { join } from 'path';                   // @see [official docs](https://nodejs.org/api/path.html)
+> >
+> > function doStuff() {                           // --> this function does stuff.
+> >   console.log('Lets see the markdown again');  // @see tab:the markdown
+> > /*!*//*-*/  console.log('This line is removed');
+> > /*!*//*+*/  console.log('This line is added');
+> >
+> > /*!*/  this./*~*/methodWithErrors()/*~*/;
+> > }
+> > ```
+> > > :Buttons
+> > > > :CopyButton
+> > ````
 >
-> > :Button label=Second Line, url=#code1-l2:l2
+> > :Tab title=how it looks
+> >
+> > So I have some code with enhanced features here:
+> > ```tsx
+> > /*!*/import { build } from '@codedoc/core';         // --> programmatically import codedoc
+> > /*!*/import { join } from 'path';                   // @see [official docs](https://nodejs.org/api/path.html)
+> >
+> > function doStuff() {                           // --> this function does stuff.
+> >   console.log('Lets see the markdown again');  // @see tab:the markdown
+> > /*-*/  console.log('This line is removed');
+> > /*+*/  console.log('This line is added');
+> >
+> >   this./*~*/methodWithErrors()/*~*/;
+> > }
+> > ```
+> > > :Buttons
+> > > > :CopyButton
 
-```tsx
-import { RendererLike } from '@connectv/html';
-import { File } from 'rxline/fs';
-/*!*/import { Page, Meta, ContentNav, Fonts, ToC, GithubSearch$ } from '@codedoc/core/components';
-
-import { config } from '../config';
-/*+*/import { Header } from './header';
-/*-*/import { Footer } from './footer';
-
-
-export function content(_content: HTMLElement, toc: HTMLElement, renderer: RendererLike<any, any>, file: File<string>) {
-  return (
-    <Page title={config.page.title.extractor(_content, config, file)}
-          favicon={config.page.favicon}
-          meta={<Meta {...config.page.meta}/>}
-          fonts={<Fonts {...config.page.fonts}/>}
-
-          scripts={config.page.scripts}
-          stylesheets={config.page.stylesheets}
-
-          header={<Header {...config}/>}
-          footer={<Footer {...config}/>}
-          toc={
-            <ToC default="open"                  // --> change this line.
-              search={
-                  config.misc?.github ? 
-                  <GithubSearch$
-                    repo={config.misc.github.rep}
-                    user={config.misc.github.user}
-                    root={config.src.base}
-                    pick={config.src.pick.source}
-                    drop={config.src.drop.source}
-                  /> : false
-              }>{toc}</ToC>
-          }>
-      {_content}
-      <ContentNav content={_content}/>
-    </Page>
-  )
-}
-```
+<br>
 
 > :Buttons
-> > :Button label=Click ME!, url=/docs/doc
+> > :Button label=Learn More, url=/docs/code/overview
 
-## The standard Lorem Ipsum passage, used since the 1500s
+<br>
 
-"Lorem ipsum dolor sit amet, consectetur[Also maybe this is important](:Footnote) adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+## Customizability
 
-## Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+Easily change any aspect of your docs, from theme colors and fonts
+to meta data of each page and their layouts. Create your own custom
+header or ToC with JSX/TSX-based components, or use custom JSX-TSX-based
+components in your markdown.
 
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt[](:Footnote (id=second)). Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae[is this important too?](:Footnote) consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+The component-based structure of codedoc simply means that you can even
+re-use your custom components across different projects, or you can
+publish them (for example to NPM) so that other people can enjoy them too!
 
-```go
-func /*~warn~*/whatev()/*~warn~*/ int {
-  /*~*/return 0/*~*/
-}
-```
+<br>
 
-> :Footnotes
+## Integrated Search
+
+If your project is on GitHub, codedoc by default includes a cross-docs
+search functionality using GitHub search API. You can also easily
+integrate your own search APIs into the default search components (besides
+being able to actually use your own custom search components).
+
+The same search functionality is used on this documentation. You can check it out
+by clicking on the <span class="icon-font" style="vertical-align:middle">menu</span> icon in the footer and
+opening the search functionality.
+
+<br>
+
+## Integrated Dark Mode
+
+Its 2020, and dark-mode should be considered a universal right! Codedoc
+supports dark-mode on all your docs. Device settings is used by default,
+while allowing your readers to manually override this.
+
+<br>
+
+## Collaborative
+
+Everything is markdown, so you can easily work on a project's documentation
+with your peers using any version control software like Git. No need for
+half-baked weird visual interfaces on top!
+
+<br>
+
+## Open-Source
+
+Codedoc is an open-source tool, completely free-to-use, MIT-licensed,
+no strings attached. I simply needed this tool to write usable docs for some
+open-source projects I was working on.
 
 > :ToCPrevNext
