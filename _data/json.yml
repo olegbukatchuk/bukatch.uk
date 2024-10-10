@@ -1,1 +1,38 @@
-# empty
+- key: Name
+  value: Oleg Bukatchuk
+- key: Description
+  value:
+    - Hello!
+    - This my VC
+    - Looks like JSON
+  typed: true
+- key: CV
+  value: cv.pdf
+  url: /cv.pdf
+- key: Address
+  value:
+    - University of Jekyll
+    - Department of Themes
+    - 123 Main St, Anytown, USA
+- key: Contact
+  value:
+    - key: Office
+      value: Foobar Hall 1.23
+    - key: Phone
+      value: +7 903 726 10 16
+    - key: Email
+      value: oleg@bukatchuk.com
+      url: "mailto:oleg@bukatchuk.com"
+- key: Projects
+  value: Uptime.bz
+  url: https://uptime.bz
+- key: Profiles
+  value:
+    - value: instagram
+      url: https://www.instagram.com
+    - value: linkedin.com
+      url: https://www.linkedin.com
+    - value: vk.com
+      url: https://stackoverflow.com
+    - value: github.com
+      url: https://github.com/olegbukatchuk
