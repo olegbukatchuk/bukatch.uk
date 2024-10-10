@@ -14,10 +14,10 @@
     - University of Jekyll
     - Department of Themes
     - 123 Main St, Anytown, USA
-- key: Contact
+- key: Contacts
   value:
     - key: Telegram
-      value: @olegbukatchuk
+      value: olegbukatchuk
     - key: Phone
       value: +7 903 726 10 16
     - key: Email
