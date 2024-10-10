@@ -13,7 +13,7 @@ $transform_key: lowercase;
 $transform_value: none;
 {% when 'values' -%}
 $transform_key: none;
-$transform_value: lowercase;
+$transform_value: none;
 {% when false -%}
 $transform_key: none;
 $transform_value: none;
