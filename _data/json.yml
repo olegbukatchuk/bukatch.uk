@@ -1,19 +1,13 @@
-- key: Name
-  value: Oleg Bukatchuk
+- key: url
+  value: bukatch.uk
+  url: https://bukatch.uk
 - key: Description
   value:
-    - Hello!
-    - This my VC
-    - Looks like JSON
+    - Hello! My name is Oleg Bukatchuk.
+    - I am Site Reability Engineer.
+    - My expirience over 20 year old.
   typed: true
-- key: CV
-  value: cv.pdf
-  url: /cv.pdf
-- key: Address
-  value:
-    - University of Jekyll
-    - Department of Themes
-    - 123 Main St, Anytown, USA
+
 - key: Contacts
   value:
     - key: Telegram
