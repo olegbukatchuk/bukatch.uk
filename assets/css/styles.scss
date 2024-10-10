@@ -19,7 +19,7 @@ $transform_key: none;
 $transform_value: none;
 {% else -%}
 $transform_key: lowercase;
-$transform_value: lowercase;
+$transform_value: none;
 {% endcase -%}
 
 @import "default";
