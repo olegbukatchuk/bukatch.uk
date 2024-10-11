@@ -33,7 +33,12 @@
       url: https://quickdate.io
 - key: Profiles
   value:
-    - value: vk.com
-      url: https://vk.com/olegbukatchuk
-    - value: github.com
+    - value: github
       url: https://github.com/olegbukatchuk
+    - value: instagram
+      url: https://instagram.com/olegbukatchuk
+    - value: facebook
+      url: https://facebook.com/olegbukatchuk
+    - value: vk
+      url: https://vk.com/olegbukatchuk
+    
