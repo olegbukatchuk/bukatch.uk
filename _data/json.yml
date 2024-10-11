@@ -19,13 +19,13 @@
       url: "mailto:oleg@bukatchuk.com"
 - key: Projects
   value: 
-    - value: Mailer.bz - Email Marketing Application
+    - value: Mailer.bz - Email Marketing
       url: https://mailer.bz
     - value: Uptime.bz - Uptime Monitoring & Status Pages
       url: https://uptime.bz
-    - value: Freelance.im - Job Application
+    - value: Freelance.im - Find Top Global Talent
       url: https://freelance.im
-    - value: QuickDate.io - Dating Application
+    - value: QuickDate.io - Dating
       url: https://quickdate.io
 - key: Profiles
   value:
