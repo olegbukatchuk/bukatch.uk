@@ -4,8 +4,7 @@
 - key: Description
   value:
     - Hello! My name is Oleg Bukatchuk.
-    - I am Site Reability Engineer.
-    - My expirience over 16 year old.
+    - I am human.
   typed: true
 
 - key: Contacts
@@ -19,18 +18,10 @@
       url: "mailto:oleg@bukatchuk.com"
 - key: Projects
   value: 
-    - key: Mailer.bz
-      value: Email Marketing
-      url: https://mailer.bz
     - key: Uptime.bz
       value: Uptime Monitoring & Status Pages
       url: https://uptime.bz
-    - key: Freelance.im
-      value: Find Top Global Talent
-      url: https://freelance.im
-    - key: QuickDate.io
-      value: Dating, Make Friends & Meet New People
-      url: https://quickdate.io
+
 - key: Profiles
   value:
     - value: github
