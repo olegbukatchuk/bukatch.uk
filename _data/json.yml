@@ -18,11 +18,11 @@
       url: "mailto:oleg@bukatchuk.com"
 - key: Projects
   value: 
-    - key: Uptime.bz [since 2024]
+    - key: Uptime.bz
       value: Uptime Monitoring & Status Pages
       url: https://uptime.bz
     - key: Followers.vc
-      value: Funs Community [since 2025]
+      value: Fan community platform with payments and donations
       url: https://followers.vc
 
 - key: Profiles
