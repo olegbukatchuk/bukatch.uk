@@ -27,12 +27,14 @@
 
 - key: Profiles
   value:
-    - value: github
+    - value: followers.vc
+      url: https://followers.vc/olegbukatchuk
+    - value: github.com
       url: https://github.com/olegbukatchuk
-    - value: instagram
+    - value: instagram.com
       url: https://instagram.com/olegbukatchuk
-    - value: facebook
+    - value: facebook.com
       url: https://facebook.com/olegbukatchuk
-    - value: vk
+    - value: vk.com
       url: https://vk.com/olegbukatchuk
     
