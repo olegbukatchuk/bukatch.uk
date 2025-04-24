@@ -19,10 +19,10 @@
 - key: Projects
   value: 
     - key: Uptime.bz
-      value: Uptime Monitoring & Status Pages
+      value: Uptime Monitoring & Status Pages. Easy & reliable monitoring solution.
       url: https://uptime.bz
     - key: Followers.vc
-      value: Fan community platform w/ payments & donations
+      value: Fan communitys platform w/ wallet for payments & donations
       url: https://followers.vc
 
 - key: Profiles
