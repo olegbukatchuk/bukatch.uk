@@ -24,6 +24,9 @@
     - key: Followers.vc
       value: Fan communities platform w/ wallet for payments & donations.
       url: https://followers.vc
+    - key: SwiftSend.ru (comming soon)
+      value: E-mail marketing platformm
+      url: https://swiftsend.ru
 
 - key: Profiles
   value:
