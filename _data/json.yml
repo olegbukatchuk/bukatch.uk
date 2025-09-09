@@ -4,7 +4,7 @@
 - key: Description
   value:
     - Hello! My name is Oleg Bukatchuk.
-    - I am human.
+    - I am human and IT expert.
   typed: true
 
 - key: Contacts
@@ -31,8 +31,12 @@
       url: https://followers.vc/olegbukatchuk
     - value: github.com
       url: https://github.com/olegbukatchuk
+    - value: linkedin.com
+      url: https://www.linkedin.com/in/olegbukatchuk
     - value: instagram.com
-      url: https://instagram.com/olegbukatchuk
+      url: https://instagram.com/oleg.bukatchuk
+    - value: youtube.com
+      url: https://youtube.com/@oleg.bukatchuk
     - value: facebook.com
       url: https://facebook.com/olegbukatchuk
     - value: vk.com
