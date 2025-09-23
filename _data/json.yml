@@ -16,19 +16,9 @@
     - key: Email
       value: oleg@bukatchuk.com
       url: "mailto:oleg@bukatchuk.com"
-- key: Projects
-  value: 
-    - key: Followers.vc
-      value: Fan communities platform w/ wallet for payments & donations.
-      url: https://followers.vc
-    - key: Uptime.bz
-      value: Uptime Monitoring & Status Pages. Easy & reliable monitoring solution.
-      url: https://uptime.bz
 
 - key: Profiles
   value:
-    - value: followers.vc
-      url: https://followers.vc/olegbukatchuk
     - value: github.com
       url: https://github.com/olegbukatchuk
     - value: linkedin.com
