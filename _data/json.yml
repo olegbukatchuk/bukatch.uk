@@ -3,8 +3,10 @@
   url: https://bukatch.uk
 - key: Description
   value:
-    - Hello! My name is Oleg Bukatchuk.
+    - Hello!
+    - My name is Oleg Bukatchuk.
     - I am human.
+    - I am software engineer.
   typed: true
 
 - key: Contacts
