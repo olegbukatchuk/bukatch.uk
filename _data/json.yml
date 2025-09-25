@@ -6,8 +6,14 @@
     - Hello!
     - My name is Oleg Bukatchuk.
     - I am human.
-    - I am software engineer.
+    - I am software engineer
   typed: true
+
+- key: Projects
+  value: 
+    - key: Yanabe.ru
+      value: All-in-One Meeting Toolkit
+      url: https://yanabe.ru
 
 - key: Contacts
   value:
