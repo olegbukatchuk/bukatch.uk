@@ -1,18 +1,17 @@
 - key: url
-  value: bukatch.uk
-  url: https://bukatch.uk
+  value: bukatchuk.com
+  url: https://bukatchuk.com
 - key: Description
   value:
     - Hello!
     - My name is Oleg Bukatchuk.
-    - I am human.
-    - I am software engineer
+    - I am human and software engineer.
   typed: true
 
 - key: Contacts
   value:
     - key: Telegram
-      value: olegbukatchuk
+      value: "@olegbukatchuk"
     - key: Phone
       value: +7 903 726 10 16
     - key: Email
